@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ScoreActivity"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/basic">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="DASHBOARD"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:textSize="37sp"
+        android:textColor="@color/white"
+        android:text="SCORE"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"
+        android:textSize="37sp"
+        android:textColor="@color/white"
+        android:text="5"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="0dp"
+        android:textSize="37sp"
+        android:textColor="@color/white"
+        android:text="OUT OF 10"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+</LinearLayout>
+
+    <Button
+        android:layout_width="180dp"
+        android:id="@+id/done"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120sp"
+        android:backgroundTint="@color/basic"
+        android:stateListAnimator="@null"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:background="@drawable/button_style"
+        android:text="DONE"
+
+        />
+
+
+
+</LinearLayout>
