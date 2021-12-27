@@ -1,7 +1,7 @@
 # Quiz-app-Android-App-Development-Project
 Online exam / quiz with two modules (Admin and student)
 
-This app uses firebase Realtime db for stroring data, please view documentation.pdf for complete overview of how to use.
+This app uses firebase Realtime db for storing data, please view documentation.pdf for complete overview of how to use.
 
 Some of the other features implemented are:
 
